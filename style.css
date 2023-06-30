@@ -1,0 +1,152 @@
+
+
+.kagami-header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.kagami-logo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.kagami-image {
+    flex: 1;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 115px;
+    width: 750px;
+}
+  
+.text {
+font-size: 150px;
+font-family: 'Montserrat';
+font-weight: 700;
+letter-spacing: 2px;
+}
+
+.inverted {
+opacity: 0.307;
+transform: rotate(180deg);
+}
+
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.weather-text{
+    color: white;
+    font-size: 48px;
+    font-family: ArialMT, Arial;
+    text-align: center;
+}
+
+.weather-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.calendar-text{
+    color: white;
+    font-size: 48px;
+    font-family: ArialMT, Arial;
+    text-align: center;
+}
+
+.calendar-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.music-text{
+    color: black;
+    font-size: 48px;
+    font-family: ArialMT, Arial;
+    text-align: center;
+}
+
+.music-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.mirror-text{
+    color: black;
+    font-size: 48px;
+    font-family: ArialMT, Arial;
+    text-align: center;
+}
+
+.mirror-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.horizontal-mirror{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#canvas-container {
+    width: 100%;
+    height: 100%;
+}
+
+.end-container{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.end-logo{
+    font-size: 80px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.end-names{
+    font-size: 80px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.verbinder{
+    font-size: 80px;
+    font-family: 'Montserrat';
+    font-weight: 700; 
+}
+
+.fade-in-text {
+    opacity: 0;
+    transition: opacity 1.0s ease;
+}
