@@ -47,7 +47,7 @@ objLoader.load(
     });
     group.add(object);
     object.scale.set(0.1, 0.1, 0.1);
-    object.position.set(0, 0, -40.5)
+    object.position.set(0, 0, -40.0)
     group.position.set(0, 0, 0);
     // Add the loaded object to the scene
     scene.add(group);
@@ -102,7 +102,7 @@ scene.add(zAxis);
 
 camera.position.z = 5;
 camera.position.y = 40;
-camera.position.x = -100;
+camera.position.x = -130;
 
 function animate() {
 	requestAnimationFrame( animate );
