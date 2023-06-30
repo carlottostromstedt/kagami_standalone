@@ -150,3 +150,65 @@ body{
     opacity: 0;
     transition: opacity 1.0s ease;
 }
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    /* Add your custom styles for iPhone 12 here */
+    .kagami-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .kagami-logo{
+        margin-top: 100px;
+    }
+
+    .weather-container{
+        height: 1400px !important;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+    .calendar-container{
+        height: 1400px !important;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .music-container{
+        height: 1400px !important;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mirror-container{
+        height: 1400px !important;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .end-container{
+        height: 1400px !important;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust any other elements or properties as needed */
+  }
